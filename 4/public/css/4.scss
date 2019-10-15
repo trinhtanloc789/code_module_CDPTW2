@@ -1,0 +1,164 @@
+$color_1: #9a9a9a;
+$color_2: #555555;
+$color_3: #fff;
+$color_4: #e8a87c;
+$color_5: #85cdca;
+$font_family_1: 'Poppins', sans-serif;
+
+.type_4{
+    .txt1 {
+        font-family: $font_family_1;
+        color: $color_1;
+        letter-spacing: 2px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .txt2 {
+        font-family: $font_family_1;
+        color: $color_2;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    .txt3 {
+        color: $color_1;
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        display: block;
+    }
+    .btn {
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        letter-spacing: 1px;
+        background: #e27d60;
+        color: $color_3;
+        text-decoration: none;
+        box-sizing: border-box;
+        padding: 5px 20px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .bg {
+        background: #e8a87c;
+    }
+    .txt4 {
+        font-family: $font_family_1;
+        color: $color_3;
+        letter-spacing: 2px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .txt5 {
+        font-family: $font_family_1;
+        color: $color_3;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    .txt6 {
+        color: $color_3;
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        display: block;
+    }
+    .btn1 {
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        letter-spacing: 1px;
+        background: #fff;
+        color: $color_4;
+        text-decoration: none !important;
+        box-sizing: border-box;
+        padding: 5px 20px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .col1 {
+        background: #e8a87c;
+    }
+    .bg1 {
+        background: #85cdca;
+    }
+    .txt7 {
+        font-family: $font_family_1;
+        color: $color_3;
+        letter-spacing: 2px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .txt8 {
+        font-family: $font_family_1;
+        color: $color_3;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    .txt9 {
+        color: $color_3;
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        display: block;
+    }
+    .btn2 {
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        letter-spacing: 1px;
+        background: #fff;
+        color: $color_5;
+        text-decoration: none !important;
+        box-sizing: border-box;
+        padding: 5px 20px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .col2 {
+        background: #85cdca;
+    }
+    .bg2 {
+        background: #fff;
+    }
+    .txt10 {
+        font-family: $font_family_1;
+        color: $color_1;
+        letter-spacing: 2px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .txt11 {
+        font-family: $font_family_1;
+        color: $color_2;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    .txt12 {
+        color: $color_1;
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        display: block;
+    }
+    .btn3 {
+        font-size: 14px;
+        line-height: 27px;
+        font-family: $font_family_1;
+        letter-spacing: 1px;
+        background: #85cdca;
+        color: $color_3;
+        text-decoration: none !important;
+        box-sizing: border-box;
+        padding: 5px 20px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .col3 {
+        background: #fff;
+    }
+    
+}
