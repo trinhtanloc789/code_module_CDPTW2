@@ -54,7 +54,49 @@
   border-bottom: 1px solid #555555;
 }
 
-.type-9 .container .a1 {
+.type-9 .container .infor1 a {
   position: absolute;
   right: 10px;
+  color: #9a9a9a;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.type-9 .container .infor1 a:hover {
+  text-decoration: none;
+  color: #9a9a9a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.type-9 .container .avaiable {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+  color: #9b9b9b;
+}
+
+.type-9 .container .phone {
+  font-size: 60px;
+  line-height: 60px;
+  color: #555555;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 480px) {
+  .type-9 .row .col1 {
+    margin-bottom: 20px;
+  }
+  .type-9 .phone {
+    text-align: center;
+  }
+  .type-9 .avaiable {
+    text-align: center;
+  }
+  .type-9 iframe {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
 }
