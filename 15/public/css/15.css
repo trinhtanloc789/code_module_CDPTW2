@@ -1,46 +1,70 @@
 .type-15 {
-  background-image: url("/public/images/para-04.jpg");
-  padding-top: 50px;
-  padding-bottom: 70px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("../images/para-04.jpg");
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
-.type-15 .container .service {
-  display: inline-block;
-  text-decoration: none;
-  line-height: 50px;
+.type-15 .rize p {
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: 40px;
-  letter-spacing: 1px;
-  text-align: left !important;
+  line-height: 50px;
 }
 
-.type-15 .container .col-md-2 {
-  position: relative;
+.type-15 .rize p img {
+  width: 55px;
 }
 
-.type-15 .container .col-md-2 img {
-  position: absolute;
-  width: 30%;
-  right: 16px;
+.type-15 .rexbin {
+  display: flex;
+  width: 100%;
 }
 
-.type-15 .container .col-md-3 {
-  text-align: center;
-  color: #ffffff;
-  left: 150px;
+.type-15 .rexbin .rexcol1 {
+  width: 25%;
 }
 
-.type-15 .container .col-md-3 .number {
+.type-15 .rexbin .rexcol1 .number {
   font-size: 50px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
 }
 
-.type-15 .container .col-md-3 .cmt-num {
-  font-size: 15px;
-  line-height: 30px;
-  letter-spacing: 2px;
-  font-weight: lighter;
+.type-15 .rexbin .rexcol2 {
+  width: 25%;
+}
+
+.type-15 .rexbin .rexcol2 .number {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.type-15 .rexbin .rexcol3 {
+  width: 25%;
+}
+
+.type-15 .rexbin .rexcol3 .number {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.type-15 .rexbin .rexcol4 {
+  width: 25%;
+}
+
+.type-15 .rexbin .rexcol4 .number {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .col-md-6 {
+    display: inline-block;
+    text-align: center;
+  }
+  .rexbin {
+    flex-direction: column;
+  }
 }
