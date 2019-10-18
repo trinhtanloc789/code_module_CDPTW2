@@ -1,0 +1,80 @@
+$color_1: #ffffff;
+$color_2: #fff;
+$color_3: #e8a87c;
+$color_4: #555555;
+$font_family_1: 'Poppins', sans-serif;
+$background_color_1: #e8a87c;
+
+.type-12 {
+	padding: 40px;
+	background-image: url("../images/12-1.png");
+	.container {
+		.row {
+			.txt1 {
+				font-size: 50px;
+				line-height: 50px;
+				letter-spacing: 0px;
+				font-weight: bold;
+				font-family: $font_family_1;
+				color: $color_1;
+			}
+			.txt2 {
+				font-size: 13px;
+				line-height: 25px;
+				letter-spacing: 3px;
+				font-weight: lighter;
+				font-family: $font_family_1;
+				display: block;
+				margin-block-start: 1em;
+				margin-block-end: 1em;
+				color: $color_1;
+			}
+			.btn {
+				line-height: 14px;
+				font-size: 14px;
+				background-color: $background_color_1;
+				padding: 15px 35px;
+				border-radius: 30px;
+				color: $color_2;
+				&:hover {
+					color: $color_3;
+					background: #ffffff;
+				}
+			}
+			.img-icon {
+				width: 40px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.nameic {
+				text-align: center;
+				font-family: $font_family_1;
+				color: $color_4;
+				font-size: 40px;
+				line-height: 45px;
+				font-weight: bold;
+			}
+			.cmtic {
+				text-align: center;
+				font-family: $font_family_1;
+				font-weight: lighter;
+				font-size: 12px;
+				line-height: 12px;
+				letter-spacing: 3px;
+				display: block;
+				margin-block-start: 1.33em;
+				margin-block-end: 1.33em;
+			}
+			.bg-col {
+				background: #ffffff;
+				box-sizing: border-box;
+				border-radius: 20px;
+				padding: 20px;
+			}
+			.a {
+				margin: 20px 0 !important;
+			}
+		}
+	}
+}

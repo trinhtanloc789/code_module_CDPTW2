@@ -1,0 +1,112 @@
+$color_1: #555555;
+$color_2: #9a9a9a;
+$color_3: #fff;
+$color_4: #85cdca;
+$color_5: #9b9b9b;
+$font_family_1: 'Poppins', sans-serif;
+$background_color_1: #85cdca;
+$background_color_2: #fff;
+$border_color_1: #fff;
+
+.type-9 {
+	.container {
+		.txt1 {
+			font-size: 25px;
+			line-height: 25px;
+			font-weight: bold;
+			font-family: $font_family_1;
+			color: $color_1;
+		}
+		.txt2 {
+			color: $color_2;
+			font-family: $font_family_1;
+			font-size: 14px;
+			line-height: 27px;
+			letter-spacing: 1px;
+		}
+		.form-group {
+			label {
+				color: $color_2;
+				font-family: $font_family_1;
+				font-size: 14px;
+				line-height: 27px;
+				letter-spacing: 1px;
+			}
+			input {
+				border-radius: 30px;
+			}
+			textarea {
+				border-radius: 30px;
+				padding: 45px;
+			}
+		}
+		.btn {
+			background-color: $background_color_1;
+			color: $color_3;
+			border-color: $border_color_1;
+			border-radius: 30px;
+			border-style: solid;
+			padding: 10px 20px;
+			&:hover {
+				color: $color_4;
+				background-color: $background_color_2;
+				border: 1px solid #85cdca;
+			}
+		}
+		.p1 {
+			color: $color_1;
+			font-family: $font_family_1;
+			font-size: 14px;
+			line-height: 27px;
+			border-bottom: 1px solid #555555;
+		}
+		.infor1 {
+			a {
+				position: absolute;
+				right: 10px;
+				color: $color_2;
+				text-decoration: none;
+				font-family: $font_family_1;
+				&:hover {
+					text-decoration: none;
+					color: $color_2;
+					font-family: $font_family_1;
+				}
+			}
+		}
+		.avaiable {
+			font-size: 14px;
+			line-height: 14px;
+			letter-spacing: 2px;
+			font-family: $font_family_1;
+			color: $color_5;
+		}
+		.phone {
+			font-size: 60px;
+			line-height: 60px;
+			color: $color_1;
+			font-family: $font_family_1;
+			letter-spacing: 1px;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+	.type-9 {
+		.row {
+			.col1 {
+				margin-bottom: 20px;
+			}
+		}
+		.phone {
+			text-align: center;
+		}
+		.avaiable {
+			text-align: center;
+		}
+		iframe {
+			display: block;
+			width: 300px;
+			margin: 0 auto;
+		}
+	}
+}

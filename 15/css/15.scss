@@ -1,0 +1,63 @@
+$color_1: #ffffff;
+$font_family_1: 'Poppins', sans-serif;
+
+.type-15 {
+	font-family: $font_family_1;
+	background-image: url("../images/15-1.png");
+	color: $color_1;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	.rize {
+		p {
+			font-weight: bold;
+			color: $color_1;
+			font-size: 40px;
+			line-height: 50px;
+			img {
+				width: 55px;
+			}
+		}
+	}
+	.rexbin {
+		display: flex;
+		width: 100%;
+		.rexcol1 {
+			width: 25%;
+			.number {
+				font-size: 50px;
+				font-weight: bold;
+			}
+		}
+		.rexcol2 {
+			width: 25%;
+			.number {
+				font-size: 50px;
+				font-weight: bold;
+			}
+		}
+		.rexcol3 {
+			width: 25%;
+			.number {
+				font-size: 50px;
+				font-weight: bold;
+			}
+		}
+		.rexcol4 {
+			width: 25%;
+			.number {
+				font-size: 50px;
+				font-weight: bold;
+			}
+		}
+	}
+}
+@media (max-width: 600px) {
+	.col-md-6 {
+		display: inline-block;
+		text-align: center;
+	}
+	.rexbin {
+		flex-direction: column;
+	}
+}

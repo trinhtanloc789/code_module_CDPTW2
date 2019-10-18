@@ -1,164 +1,113 @@
-$color_1: #9a9a9a;
-$color_2: #555555;
-$color_3: #fff;
-$color_4: #e8a87c;
-$color_5: #85cdca;
-$font_family_1: 'Poppins', sans-serif;
-
-.type_4{
-    .txt1 {
-        font-family: $font_family_1;
-        color: $color_1;
-        letter-spacing: 2px;
-        font-size: 14px;
-        line-height: 27px;
+.type-4 {
+    font-family: 'Poppins', sans-serif;
+    .heighrow{
+        margin-top: 40px;
     }
-    .txt2 {
-        font-family: $font_family_1;
-        color: $color_2;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: bold;
+    .bordersolid{
+        border: 1px solid #f1f1f1;
     }
-    .txt3 {
-        color: $color_1;
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        display: block;
-    }
-    .btn {
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        letter-spacing: 1px;
-        background: #e27d60;
-        color: $color_3;
-        text-decoration: none;
-        box-sizing: border-box;
-        padding: 5px 20px;
-        cursor: pointer;
-        border-radius: 30px;
-    }
-    .bg {
+    .bg-orange{
         background: #e8a87c;
+        .text-white{
+            color: #ffffff;
+        }
+        .btn-white{
+            color:#e8a87c;
+            background: #ffffff;
+            border-radius: 30px;
+            padding: 7px 20px;
+        }
+        .btn-white:hover{
+            color:#ffffff;
+            background:#e8a87c ;
+            border-radius: 30px;
+            padding: 7px 20px;
+            text-decoration: none;
+            border: 1px solid #ffffff;
+        }
     }
-    .txt4 {
-        font-family: $font_family_1;
-        color: $color_3;
-        letter-spacing: 2px;
-        font-size: 14px;
-        line-height: 27px;
-    }
-    .txt5 {
-        font-family: $font_family_1;
-        color: $color_3;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: bold;
-    }
-    .txt6 {
-        color: $color_3;
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        display: block;
-    }
-    .btn1 {
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        letter-spacing: 1px;
-        background: #fff;
-        color: $color_4;
-        text-decoration: none !important;
-        box-sizing: border-box;
-        padding: 5px 20px;
-        cursor: pointer;
-        border-radius: 30px;
-    }
-    .col1 {
-        background: #e8a87c;
-    }
-    .bg1 {
+    .bg-green{
         background: #85cdca;
-    }
-    .txt7 {
-        font-family: $font_family_1;
-        color: $color_3;
-        letter-spacing: 2px;
-        font-size: 14px;
-        line-height: 27px;
-    }
-    .txt8 {
-        font-family: $font_family_1;
-        color: $color_3;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: bold;
-    }
-    .txt9 {
-        color: $color_3;
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        display: block;
-    }
-    .btn2 {
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        letter-spacing: 1px;
-        background: #fff;
-        color: $color_5;
-        text-decoration: none !important;
-        box-sizing: border-box;
-        padding: 5px 20px;
-        cursor: pointer;
-        border-radius: 30px;
-    }
-    .col2 {
-        background: #85cdca;
-    }
-    .bg2 {
-        background: #fff;
-    }
-    .txt10 {
-        font-family: $font_family_1;
-        color: $color_1;
-        letter-spacing: 2px;
-        font-size: 14px;
-        line-height: 27px;
-    }
-    .txt11 {
-        font-family: $font_family_1;
-        color: $color_2;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: bold;
-    }
-    .txt12 {
-        color: $color_1;
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        display: block;
-    }
-    .btn3 {
-        font-size: 14px;
-        line-height: 27px;
-        font-family: $font_family_1;
-        letter-spacing: 1px;
-        background: #85cdca;
-        color: $color_3;
-        text-decoration: none !important;
-        box-sizing: border-box;
-        padding: 5px 20px;
-        cursor: pointer;
-        border-radius: 30px;
-    }
-    .col3 {
-        background: #fff;
+        .text-white{
+            color: #ffffff;
+        }
+        .btn-green{
+            color:#85cdca;
+            background: #ffffff;
+            border-radius: 30px;
+            padding: 7px 20px;
+        }
+        .btn-green:hover{
+            color:#ffffff;
+            background: #85cdca;
+            border-radius: 30px;
+            padding: 7px 20px;
+            text-decoration: none;
+            border: 1px solid #ffffff;
+        }
     }
     
+    .pd {
+        display: flex;
+        width: 100%;
+        .btn-default-green{
+            background-color: #85cdca;
+            border-radius: 30px;
+            padding: 7px 20px;
+            color: #ffffff;
+        }
+        .btn-default-green:hover{
+            background-color: #ffffff;
+            border-radius: 30px;
+            padding: 7px 20px;
+            color: #85cdca;
+            text-decoration: none;
+            border: 1px solid #85cdca;
+        }
+        .img {
+
+            width: 50%;
+        }
+
+        .cmt {
+            width: 50%;
+            padding-left: 30px;
+            padding-top: 30px;
+
+            .title {
+                color: #9a9a9a;
+                letter-spacing: 2px;
+                font-size: 14px;
+                line-height: 27px;
+                padding-bottom: 10px;
+            }
+            .ttname{
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 20px;
+                color: #555555;
+                padding-bottom: 20px;
+            }
+            .descrip{
+                font-size: 14px;
+                line-height: 27px;
+                color: #9a9a9a;
+                padding-bottom: 20px;
+            }
+            .btn-default{
+                background-color: #e27d60;
+                border-radius: 30px;
+                padding: 7px 20px;
+                color: #ffffff;
+            }
+            .btn-default:hover{
+                background-color: #ffffff;
+                border-radius: 30px;
+                padding: 7px 20px;
+                color: #e27d60;
+                text-decoration: none;
+                border: 1px solid #e27d60;
+            }
+        }
+    }
 }

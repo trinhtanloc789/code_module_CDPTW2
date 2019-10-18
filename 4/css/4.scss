@@ -1,0 +1,120 @@
+$color_1: #ffffff;
+$color_2: #e8a87c;
+$color_3: #85cdca;
+$color_4: #9a9a9a;
+$color_5: #555555;
+$color_6: #e27d60;
+$font_family_1: 'Poppins', sans-serif;
+$background_color_1: #85cdca;
+$background_color_2: #ffffff;
+$background_color_3: #e27d60;
+
+.type-4 {
+	font-family: $font_family_1;
+	.heighrow {
+		margin-top: 40px;
+	}
+	.bordersolid {
+		border: 1px solid #f1f1f1;
+	}
+	.bg-orange {
+		background: #e8a87c;
+		.text-white {
+			color: $color_1;
+		}
+		.btn-white {
+			color: $color_2;
+			background: #ffffff;
+			border-radius: 30px;
+			padding: 7px 20px;
+			&:hover {
+				color: $color_1;
+				background: #e8a87c;
+				border-radius: 30px;
+				padding: 7px 20px;
+				text-decoration: none;
+				border: 1px solid #ffffff;
+			}
+		}
+	}
+	.bg-green {
+		background: #85cdca;
+		.text-white {
+			color: $color_1;
+		}
+		.btn-green {
+			color: $color_3;
+			background: #ffffff;
+			border-radius: 30px;
+			padding: 7px 20px;
+			&:hover {
+				color: $color_1;
+				background: #85cdca;
+				border-radius: 30px;
+				padding: 7px 20px;
+				text-decoration: none;
+				border: 1px solid #ffffff;
+			}
+		}
+	}
+	.pd {
+		display: flex;
+		width: 100%;
+		.btn-default-green {
+			background-color: $background_color_1;
+			border-radius: 30px;
+			padding: 7px 20px;
+			color: $color_1;
+			&:hover {
+				background-color: $background_color_2;
+				border-radius: 30px;
+				padding: 7px 20px;
+				color: $color_3;
+				text-decoration: none;
+				border: 1px solid #85cdca;
+			}
+		}
+		.img {
+			width: 50%;
+		}
+		.cmt {
+			width: 50%;
+			padding-left: 30px;
+			padding-top: 30px;
+			.title {
+				color: $color_4;
+				letter-spacing: 2px;
+				font-size: 14px;
+				line-height: 27px;
+				padding-bottom: 10px;
+			}
+			.ttname {
+				font-weight: bold;
+				font-size: 20px;
+				line-height: 20px;
+				color: $color_5;
+				padding-bottom: 20px;
+			}
+			.descrip {
+				font-size: 14px;
+				line-height: 27px;
+				color: $color_4;
+				padding-bottom: 20px;
+			}
+			.btn-default {
+				background-color: $background_color_3;
+				border-radius: 30px;
+				padding: 7px 20px;
+				color: $color_1;
+				&:hover {
+					background-color: $background_color_2;
+					border-radius: 30px;
+					padding: 7px 20px;
+					color: $color_6;
+					text-decoration: none;
+					border: 1px solid #e27d60;
+				}
+			}
+		}
+	}
+}

@@ -22,7 +22,7 @@
   color: #555555;
   font-size: 25px;
   line-height: 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .type-23 .title::after {
@@ -38,7 +38,7 @@
 .type-23 .nametour {
   font-size: 20px;
   line-height: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #555555;
 }
 
@@ -46,7 +46,7 @@
   color: #9a9a9a;
   font-size: 16px;
   line-height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .type-23 .btn {
@@ -54,7 +54,7 @@
   line-height: 13px;
   color: #9a9a9a;
   background-color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 1px solid #f1f1f1;
 }
 
