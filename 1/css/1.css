@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Regular.ttf);
+}
+
 .type-1 {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
 }
 
 .type-1 .swiper-container {
@@ -26,21 +31,19 @@
 }
 
 .type-1 .logo {
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 
 .type-1 .title-search {
   letter-spacing: 2px;
   color: #9a9a9a;
   line-height: 27px;
-  margin-bottom: 20px;
 }
 
 .type-1 .find {
   color: #555555;
   font-size: 36px;
   line-height: 46px;
-  margin-bottom: 20px;
 }
 
 .type-1 .find span {
@@ -53,8 +56,8 @@
   box-sizing: border-box;
   border-radius: 10px;
   position: relative;
-  margin-bottom: 20px;
-  padding: 25px;
+  margin-bottom: 10px;
+  padding: 20px;
 }
 
 .type-1 .form1 p {

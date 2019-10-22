@@ -1,19 +1,25 @@
-$color_1: #f1f1f1;
-$color_2: #555555;
-$color_3: #9a9a9a;
-$font_family_1: 'Poppins', sans-serif;
-$background_color_1: #f1f1f1;
-$background_color_2: #fff;
+@font-face{
+	font-family: Poppins;
+	src: url(../font/Poppins-Regular.ttf);
+}
 
 .type-23 {
+	$color_1: #f1f1f1;
+	$color_2: #555555;
+	$color_3: #9a9a9a;
+	$font_family_1: Poppins;
+	$background_color_1: #f1f1f1;
+	$background_color_2: #fff;
+	
 	letter-spacing: 1px;
 	.img-card {
+		position: relative;
 		.click-img {
-			position: relative;
+			
 			span {
 				position: absolute;
-				top: -80px;
-				right: 10px;
+				top: 10px;
+				right: 20px;
 				background: #1bbc9b;
 				padding: 5px 7px;
 				color: $color_1;
@@ -74,30 +80,36 @@ $background_color_2: #fff;
 			}
 		}
 	}
-}
-@media screen and (max-width: 480px) {
-	.type-23 {
-		display: inline-block;
-		text-align: center;
-		.btn {
-			margin-bottom: 20px;
-		}
+	@media screen and (max-width: 480px) {
+		
+			display: inline-block;
+			text-align: center;
+			.btn {
+				margin-bottom: 20px;
+			}
+		
 	}
-}
-@media (max-width: 989px) {
-	.type-23 {
-		.img-card {
-			.click-img {
-				position: relative;
-				span {
-					position: absolute;
-					top: -50px;
-					right: 10px;
-					background: #1bbc9b;
-					padding: 5px 7px;
-					color: $color_1;
+	@media (max-width: 989px) {
+		
+			.fix{
+				display: inline-block;
+				text-align: center;
+				.img-card {
+					position: relative;
+					.click-img {
+						
+						span {
+							position: absolute;
+							top: 10px;
+							right: 20px;
+							background: #1bbc9b;
+							padding: 5px 7px;
+							color: $color_1;
+						}
+					}
 				}
 			}
-		}
+		
 	}
+	
 }

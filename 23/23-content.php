@@ -1,30 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    $url_host = 'http://' . $_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.css">
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/all.js"></script>
-    <link rel="stylesheet" href="./css/23.css">
-    <title>Module 23</title>
-</head>
+?>
 
-<body>
-    <div class="type-23">
+<div class="type-23">
         <div class="container">
             <div class="title">
                 Related products
             </div>
-            <div class="row">
+            <div class="row fix">
                 <div class="col-md-3">
                     <div class="img-card">
-                        
-                        <a class="click-img" href="#"><span>SALE!</span><img class="img-fluid" src="./images/23-1.png" alt=""></a>
+
+                        <a class="click-img" href="#"><span>SALE!</span><img class="img-responsive" src="./images/23-1.png"
+                                alt=""></a>
                     </div>
                     <div class="a" style="height: 20px;"></div>
                     <div class="nametour">
@@ -34,12 +28,13 @@
                     <div class="price">
                         <p>$1,000.00 – $2,000.00</p>
                     </div>
-                    
+
                     <a class="btn" href="">SECLECT OPTIONS</a>
                 </div>
                 <div class="col-md-3">
                     <div class="img-card">
-                            <a class="click-img" href="#"><span>SALE!</span><img class="img-fluid" src="./images/23-2.png" alt=""></a>
+                        <a class="click-img" href="#"><span>SALE!</span><img class="img-responsive" src="./images/23-2.png"
+                                alt=""></a>
                     </div>
                     <div class="a" style="height: 20px;"></div>
                     <div class="nametour">
@@ -54,7 +49,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="img-card">
-                        <img class="img-fluid" src="./images/23-3.png" alt="">
+                        <img class="img-responsive" src="./images/23-3.png" alt="">
                     </div>
                     <div class="a" style="height: 20px;"></div>
                     <div class="nametour">
@@ -69,7 +64,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="img-card">
-                            <a class="click-img" href="#"><span>SALE!</span><img class="img-fluid" src="./images/23-4.png" alt=""></a>
+                        <a class="click-img" href="#"><span>SALE!</span><img class="img-responsive" src="./images/23-4.png"
+                                alt=""></a>
                     </div>
                     <div class="a" style="height: 20px;"></div>
                     <div class="nametour">
@@ -79,12 +75,9 @@
                     <div class="price">
                         <p>$1,000.00 – $2,000.00</p>
                     </div>
-                  
+
                     <a class="btn" href="">SECLECT OPTIONS</a>
                 </div>
             </div>
         </div>
     </div>
-</body>
-
-</html>

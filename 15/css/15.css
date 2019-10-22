@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Regular.ttf);
+}
+
 .type-15 {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
   background-image: url("../images/15-1.png");
   color: #ffffff;
   padding-top: 100px;

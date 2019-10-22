@@ -1,11 +1,16 @@
-$color_1: #ffffff;
-$color_2: #fff;
-$color_3: #e8a87c;
-$color_4: #555555;
-$font_family_1: 'Poppins', sans-serif;
-$background_color_1: #e8a87c;
-
+@font-face{
+	font-family: Poppins;
+	src: url(../font/Poppins-Regular.ttf);
+}
 .type-12 {
+	$color_1: #ffffff;
+	$color_2: #fff;
+	$color_3: #e8a87c;
+	$color_4: #555555;
+	$font_family_1: Poppins;
+	$background_color_1: #e8a87c;
+
+
 	padding: 40px;
 	background-image: url("../images/12-1.png");
 	.container {

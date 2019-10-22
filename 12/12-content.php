@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/12.css">
-    <script src="./js/all.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <title>module 12</title>
-</head>
-
-<body>
-    <div class="type-12">
+<div class="type-12">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -98,6 +90,3 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>
