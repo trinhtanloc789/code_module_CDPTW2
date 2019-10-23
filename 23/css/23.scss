@@ -1,115 +1,130 @@
-@font-face{
-	font-family: Poppins;
-	src: url(../font/Poppins-Regular.ttf);
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Regular.ttf);
 }
 
 .type-23 {
-	$color_1: #f1f1f1;
-	$color_2: #555555;
-	$color_3: #9a9a9a;
-	$font_family_1: Poppins;
-	$background_color_1: #f1f1f1;
-	$background_color_2: #fff;
-	
-	letter-spacing: 1px;
-	.img-card {
-		position: relative;
-		.click-img {
-			
-			span {
-				position: absolute;
-				top: 10px;
-				right: 20px;
-				background: #1bbc9b;
-				padding: 5px 7px;
-				color: $color_1;
-			}
-		}
-	}
-	.title {
-		position: relative;
-		margin-bottom: 45px;
-		margin-top: 45px;
-		color: $color_2;
-		font-size: 25px;
-		line-height: 25px;
-		font-family: $font_family_1;
-		&::after {
-			width: 30px;
-			height: 2px;
-			background-color: $background_color_1;
-			content: "";
-			position: absolute;
-			left: 0px;
-			bottom: -20px;
-		}
-	}
-	.nametour {
-		font-size: 20px;
-		line-height: 20px;
-		font-family: $font_family_1;
-		color: $color_2;
-	}
-	.price {
-		color: $color_3;
-		font-size: 16px;
-		line-height: 16px;
-		font-family: $font_family_1;
-	}
-	.btn {
-		font-size: 13px;
-		line-height: 13px;
-		color: $color_3;
-		background-color: $background_color_2;
-		font-family: $font_family_1;
-		border: 1px solid #f1f1f1;
-	}
-	.price-sale {
-		p {
-			color: $color_3 !important;
-			font-size: 16px !important;
-			line-height: 16px !important;
-			span {
-				text-decoration: line-through;
-			}
-			a {
-				color: $color_3;
-				font-size: 16px;
-				line-height: 16px;
-				text-decoration: underline;
-			}
-		}
-	}
-	@media screen and (max-width: 480px) {
-		
-			display: inline-block;
-			text-align: center;
-			.btn {
-				margin-bottom: 20px;
-			}
-		
-	}
-	@media (max-width: 989px) {
-		
-			.fix{
-				display: inline-block;
-				text-align: center;
-				.img-card {
-					position: relative;
-					.click-img {
-						
-						span {
-							position: absolute;
-							top: 10px;
-							right: 20px;
-							background: #1bbc9b;
-							padding: 5px 7px;
-							color: $color_1;
-						}
-					}
-				}
-			}
-		
-	}
-	
+    $color_1: #f1f1f1;
+    $color_2: #555555;
+    $color_3: #9a9a9a;
+    $font_family_1: Poppins;
+    $background_color_1: #f1f1f1;
+    $background_color_2: #fff;
+
+    letter-spacing: 1px;
+
+    .img-card {
+        position: relative;
+
+        .click-img {
+
+            span {
+                position: absolute;
+                top: 10px;
+                right: 20px;
+                background: #1bbc9b;
+                padding: 5px 7px;
+                color: $color_1;
+            }
+        }
+    }
+
+    .title {
+        position: relative;
+        margin-bottom: 45px;
+        margin-top: 45px;
+        color: $color_2;
+        font-size: 25px;
+        line-height: 25px;
+        font-family: $font_family_1;
+
+        &::after {
+            width: 30px;
+            height: 2px;
+            background-color: $background_color_1;
+            content: "";
+            position: absolute;
+            left: 0px;
+            bottom: -20px;
+        }
+    }
+
+    .nametour {
+        font-size: 20px;
+        line-height: 20px;
+        font-family: $font_family_1;
+        color: $color_2;
+    }
+
+    .price {
+        color: $color_3;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: $font_family_1;
+    }
+
+    .btn {
+        font-size: 13px;
+        line-height: 13px;
+        color: $color_3;
+        background-color: $background_color_2;
+        font-family: $font_family_1;
+        border: 1px solid #f1f1f1;
+    }
+
+    .price-sale {
+        p {
+            color: $color_3 !important;
+            font-size: 16px !important;
+            line-height: 16px !important;
+
+            span {
+                text-decoration: line-through;
+            }
+
+            a {
+                color: $color_3;
+                font-size: 16px;
+                line-height: 16px;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+
+        display: inline-block;
+        text-align: center;
+
+        .btn {
+            margin-bottom: 20px;
+        }
+
+    }
+
+    @media (max-width: 989px) {
+
+        .fix {
+            display: inline-block;
+            text-align: center;
+
+            .img-card {
+                position: relative;
+
+                .click-img {
+
+                    span {
+                        position: absolute;
+                        top: 10px;
+                        right: 20px;
+                        background: #1bbc9b;
+                        padding: 5px 7px;
+                        color: $color_1;
+                    }
+                }
+            }
+        }
+
+    }
+
 }

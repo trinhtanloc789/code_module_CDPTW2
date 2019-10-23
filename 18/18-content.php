@@ -8,40 +8,50 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <div class="type_18">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="txt">
-                        Hello. Our agency has been present for over 20 years in the market. We make the most of all our
-                        customers.
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <p>
-                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
-                        orci ut.
-                        <br>
-                        <br>
-                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
-                        orci ut.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <p>
-                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
-                        orci ut.
-                        <br>
-                        <br>
-                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
-                        orci ut.
-                    </p>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="txt">
+                    Hello. Our agency has been present for over 20 years in the market. We make the most of all our
+                    customers.
                 </div>
             </div>
-            <div class="video">
-                <img class="img-responsive img-center" src="./images/18-1.png" alt="">
-                
+            <div class="col-md-3">
+                <p>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut.
+                    <br>
+                    <br>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut.
+                    <br>
+                    <br>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut.
+                </p>
+
             </div>
         </div>
+        <!-- <div class="video">
+                <img class="img-responsive img-center" src="./images/18-1.png" alt="">
+                
+            </div> -->
+        <div class="card">
+            <div class="card-play"></div>
+            <div class="card-video">
+                <iframe id="video"
+                    src="https://www.youtube.com/embed/JE9z-gy4De4?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;rel=0&amp;showinfo=0"
+                    frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+        </div>
+        <script src="./js/18.js"></script>
 
     </div>
+
+</div>
