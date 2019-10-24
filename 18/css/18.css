@@ -63,10 +63,6 @@
   }
 }
 
-body {
-  background: #121212;
-}
-
 /* ------------ CARD ------------ */
 .card {
   width: 70vw;
@@ -77,8 +73,9 @@ body {
   position: relative;
   border-radius: 6px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1613479/inception.jpg") center center/cover;
+  background: url(../images/18-1.png) center center/cover;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .card-play {
@@ -88,7 +85,7 @@ body {
   z-index: 1;
   margin: auto;
   opacity: 0;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1613479/play.svg") center center/cover;
+  background: url(../images/18-2.png) center center/cover;
   cursor: pointer;
   transition: opacity .3s ease-out;
 }
