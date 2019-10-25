@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="selec">
-                        <label for="">Select Your Destination :</label>
+                        <label >Select Your Destination :</label>
                         <select id="input" class="form-control" required="required">
                             <option value="">All Destinations</option>
                             <option value="">VIETNAMESE</option>
@@ -34,7 +34,7 @@
                 <div class="col-md-4">
                     <div class="dtpicker">
                         <div class="form-group">
-                            <label for="">Select Your Date :</label>
+                            <label >Select Your Date :</label>
                             <div class='input-group date' id='datetimepicker1'>
                                 <input type='text' class="form-control" />
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 rize">
-                    <span> <img src="./images/7-2.png"> <a href="#">MORE FILTERS</a></span>
+                    <span> <img src="./images/7-2.png" alt="7-2"> <a href="#">MORE FILTERS</a></span>
                 </div>
                 <div class="col-md-3"></div>
             </div>

@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="card-video">
                 <iframe id="video"
                     src="https://www.youtube.com/embed/JE9z-gy4De4?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;rel=0&amp;showinfo=0"
-                    frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                    allowfullscreen="allowfullscreen"></iframe>
             </div>
         </div>
         <script src="./js/18.js"></script>

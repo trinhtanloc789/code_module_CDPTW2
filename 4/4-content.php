@@ -13,7 +13,7 @@
                 <div class="col-md-6">
                     <div class="pd">
                         <div class="img">
-                            <img class="img-fluid" src="./images/4-1.png" alt="">
+                            <img  src="./images/4-1.png" alt="">
                         </div>
                         <div class="cmt bordersolid">
                             <div class="title">
@@ -33,7 +33,7 @@
                 <div class="col-md-6">
                     <div class="pd bg-orange">
                         <div class="img">
-                            <img class="img-fluid" src="./images/4-2.png" alt="">
+                            <img  src="./images/4-2.png" alt="">
                         </div>
                         <div class="cmt">
                             <div class="title text-white">
@@ -68,14 +68,14 @@
                             <a class="btn-green" href="#">READ MORE</a>
                         </div>
                         <div class="img">
-                            <img class="img-fluid" src="./images/4-3.png" alt="">
+                            <img  src="./images/4-3.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="pd">
 
-                        <div class="cmt bordersolid">
+                        <div class="cmt bordersolid2">
                             <div class="title">
                                 OUR NEWS
                             </div>
@@ -89,7 +89,7 @@
                             <a class="btn-default-green" href="#">READ MORE</a>
                         </div>
                         <div class="img">
-                            <img class="img-fluid" src="./images/4-4.png" alt="">
+                            <img  src="./images/4-4.png" alt="">
                         </div>
                     </div>
                 </div>

@@ -26,6 +26,7 @@
 .type-15 .rexbin {
   display: flex;
   width: 100%;
+  justify-content: center !important;
 }
 
 .type-15 .rexbin .rexcol1 {
@@ -71,5 +72,6 @@
   }
   .rexbin {
     flex-direction: column;
+    align-items: center;
   }
 }

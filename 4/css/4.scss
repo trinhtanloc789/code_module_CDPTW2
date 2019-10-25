@@ -20,19 +20,18 @@
 	.heighrow {
 		margin-top: 40px;
 	}
-	.bordersolid {
-		border: 1px solid #f1f1f1;
-	}
+
 	.bg-orange {
 		background: #e8a87c;
 		.text-white {
-			color: $color_1;
+			color: $color_1 !important;
 		}
 		.btn-white {
 			color: $color_2;
 			background: #ffffff;
 			border-radius: 30px;
 			padding: 7px 20px;
+			border: 1px solid #e8a87c;
 			&:hover {
 				color: $color_1;
 				background: #e8a87c;
@@ -46,13 +45,14 @@
 	.bg-green {
 		background: #85cdca;
 		.text-white {
-			color: $color_1;
+			color: $color_1 !important;
 		}
 		.btn-green {
 			color: $color_3;
 			background: #ffffff;
 			border-radius: 30px;
 			padding: 7px 20px;
+			border: 1px solid #85cdca;
 			&:hover {
 				color: $color_1;
 				background: #85cdca;
@@ -66,6 +66,15 @@
 	.pd {
 		display: flex;
 		width: 100%;
+		.bordersolid {
+			border: 1px solid #f1f1f1;
+			border-left: none;
+			z-index: 1;
+		}
+		.bordersolid2 {
+			border: 1px solid #f1f1f1;
+			
+		}
 		.btn-default-green {
 			background-color: $background_color_1;
 			border-radius: 30px;
@@ -82,6 +91,7 @@
 		}
 		.img {
 			width: 50%;
+			z-index: 100;
 		}
 		.cmt {
 			width: 50%;
@@ -106,6 +116,7 @@
 				line-height: 27px;
 				color: $color_4;
 				padding-bottom: 20px;
+				
 			}
 			.btn-default {
 				background-color: $background_color_3;
@@ -121,6 +132,33 @@
 					border: 1px solid #e27d60;
 				}
 			}
+		}
+	}
+
+	@media (max-width:980px){
+		.pd{
+	
+			display: inline-block;
+			text-align: center;
+			flex-direction: column;
+			.cmt{
+				width: 100%;
+			}
+			.img{
+				width: 100%;
+				margin-top: 30px;
+			}
+			.text-white{
+				color: #9a9a9a !important;
+			}
+		
+		}
+	
+		.bg-orange{
+			background: #ffffff;
+		}
+		.bg-green{
+			background: #ffffff;
 		}
 	}
 }

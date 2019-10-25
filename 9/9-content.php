@@ -24,25 +24,21 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <div class="a" style="height: 20px;"></div>
                         <div class="form-group">
-                            <label for="">Name :</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                                placeholder="">
+                            <label >Name :</label>
+                            <input type="text" class="form-control">
                             <div class="c" style="height: 10px;"></div>
-                            <label for="">Email :</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                                placeholder="">
+                            <label >Email :</label>
+                            <input type="text" class="form-control">
                             <div class="c" style="height: 10px;"></div>
-                            <label for="">Message :</label>
-                            <textarea class="form-control" name="" id="" rows="3"></textarea>
+                            <label >Message :</label>
+                            <textarea class="form-control" rows="3"></textarea>
                         </div>
                         <div class="c" style="height: 10px;"></div>
                         <a class="btn" href="">SEND NOW</a>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1340.3471301215109!2d106.65526963681049!3d10.781711013723038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec7b6d74085%3A0x94e657c980401958!2zMjM1IEzDvSBUaMaw4budbmcgS2nhu4d0LCBQaMaw4budbmcgNiwgVMOibiBCw6xuaCwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1571146806696!5m2!1svi!2s"
-                        width="600" height="300" frameborder="0" style="border:0;" ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1340.3471301215109!2d106.65526963681049!3d10.781711013723038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec7b6d74085%3A0x94e657c980401958!2zMjM1IEzDvSBUaMaw4budbmcgS2nhu4d0LCBQaMaw4budbmcgNiwgVMOibiBCw6xuaCwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1571146806696!5m2!1svi!2s" width="600" height="300" style="border:0;"></iframe>
                     <div class="a" style="height: 20px;"></div>
                     <div class="ct-map">
                         <div class="row">

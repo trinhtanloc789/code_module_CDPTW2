@@ -14,8 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link href="https://codepen.io/VeronQ/pen/6d36d66998194acf3c6cc2e896401b60" rel="stylesheet" />
+    <script src="./css/normalize.min.css"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/18.css">
 

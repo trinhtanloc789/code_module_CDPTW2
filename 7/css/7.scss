@@ -13,9 +13,10 @@
   $background_color_2: #f9f9f9;
   $border_color_1: #f1f1f1;
 
-
+padding: 50px 0;
   font-family: $font_family_1;
   background-image: url(../images/7-1.png);
+  z-index: 1;
 
   .title {
     font-size: 14px;
@@ -37,6 +38,7 @@
 
   .boxfil {
     margin-top: -10px;
+  
 
     .rize {
       margin-bottom: 40px;
@@ -63,6 +65,8 @@
 
     .hoverfil {
       display: none;
+      z-index: 100;
+      margin-bottom: -100px;
 
       .foi {
         background: #ffffff;

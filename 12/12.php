@@ -19,7 +19,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/12.css">
     <script src="./js/all.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
     <title>module 12</title>
 </head>
 

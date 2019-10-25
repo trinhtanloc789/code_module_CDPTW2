@@ -99,7 +99,7 @@
   border: 1px solid #85cdca;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 991px) {
   .type-1 .col-md-4 a {
     margin-bottom: 20px;
   }

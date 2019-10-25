@@ -33,7 +33,7 @@
                         <p>
                             DESTINATION
                         </p>
-                        <select class="form-control" placeholder="All destinations">
+                        <select class="form-control" >
                             <option>All destinations</option>
                             <option>Europe</option>
                             <option>Vietnam</option>
