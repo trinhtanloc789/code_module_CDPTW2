@@ -38,10 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             </div>
         </div>
-        <!-- <div class="video">
-                <img class="img-responsive img-center" src="./images/18-1.png" alt="">
-                
-            </div> -->
+        
         <div class="card">
             <div class="card-play"></div>
             <div class="card-video">

@@ -10,14 +10,13 @@
     $font_family_1: Poppins;
     $background_color_1: #f1f1f1;
     $background_color_2: #fff;
-
     letter-spacing: 1px;
-
     .img-card {
         position: relative;
-
+        img {
+            width: 100%;
+        }
         .click-img {
-
             span {
                 position: absolute;
                 top: 10px;
@@ -28,7 +27,6 @@
             }
         }
     }
-
     .title {
         position: relative;
         margin-bottom: 45px;
@@ -37,7 +35,6 @@
         font-size: 25px;
         line-height: 25px;
         font-family: $font_family_1;
-
         &::after {
             width: 30px;
             height: 2px;
@@ -48,21 +45,18 @@
             bottom: -20px;
         }
     }
-
     .nametour {
         font-size: 20px;
         line-height: 20px;
         font-family: $font_family_1;
         color: $color_2;
     }
-
     .price {
         color: $color_3;
         font-size: 16px;
         line-height: 16px;
         font-family: $font_family_1;
     }
-
     .btn {
         font-size: 13px;
         line-height: 13px;
@@ -71,17 +65,14 @@
         font-family: $font_family_1;
         border: 1px solid #f1f1f1;
     }
-
     .price-sale {
         p {
             color: $color_3 !important;
             font-size: 16px !important;
             line-height: 16px !important;
-
             span {
                 text-decoration: line-through;
             }
-
             a {
                 color: $color_3;
                 font-size: 16px;
@@ -90,29 +81,20 @@
             }
         }
     }
-
     @media screen and (max-width: 480px) {
-
         display: inline-block;
         text-align: center;
-
         .btn {
             margin-bottom: 20px;
         }
-
     }
-
     @media (max-width: 989px) {
-
         .fix {
             display: inline-block;
             text-align: center;
-
             .img-card {
                 position: relative;
-
                 .click-img {
-
                     span {
                         position: absolute;
                         top: 10px;
@@ -124,7 +106,5 @@
                 }
             }
         }
-
     }
-
 }

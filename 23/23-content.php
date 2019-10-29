@@ -14,7 +14,7 @@
                 Related products
             </div>
             <div class="row fix">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="img-card">
 
                         <a class="click-img" href="#"><span>SALE!</span><img class="img-responsive" src="./images/23-1.png"
@@ -31,7 +31,7 @@
 
                     <a class="btn" href="">SECLECT OPTIONS</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="img-card">
                         <a class="click-img" href="#"><span>SALE!</span><img class="img-responsive" src="./images/23-2.png"
                                 alt=""></a>
@@ -47,7 +47,7 @@
 
                     <a class="btn" href="">ADD TO CARD</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="img-card">
                         <img class="img-responsive" src="./images/23-3.png" alt="">
                     </div>
@@ -62,7 +62,7 @@
 
                     <a class="btn" href="">ADD TO CARD</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="img-card">
                         <a class="click-img" href="#"><span>SALE!</span><img class="img-responsive" src="./images/23-4.png"
                                 alt=""></a>

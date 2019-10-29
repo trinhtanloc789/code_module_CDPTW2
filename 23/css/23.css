@@ -11,6 +11,10 @@
   position: relative;
 }
 
+.type-23 .img-card img {
+  width: 100%;
+}
+
 .type-23 .img-card .click-img span {
   position: absolute;
   top: 10px;
@@ -107,3 +111,4 @@
     color: #f1f1f1;
   }
 }
+/*# sourceMappingURL=23.css.map */
