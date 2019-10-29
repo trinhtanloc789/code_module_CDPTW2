@@ -12,12 +12,12 @@ $url_path = str_replace('\\', '/', $url_path);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.css">
     <script src="./js/all.js"></script>
     <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="./js/swiper.min.js"></script>
     <link rel="stylesheet" href="./css/1.css">
 
     <title>Module 1</title>

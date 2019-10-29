@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="selec">
-                        <label >Select Your Destination :</label>
+                        <label>Select Your Destination :</label>
                         <select id="input" class="form-control" required="required">
                             <option value="">All Destinations</option>
                             <option value="">VIETNAMESE</option>
@@ -34,7 +34,7 @@
                 <div class="col-md-4">
                     <div class="dtpicker">
                         <div class="form-group">
-                            <label >Select Your Date :</label>
+                            <label>Select Your Date :</label>
                             <div class='input-group date' id='datetimepicker1'>
                                 <input type='text' class="form-control" />
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>

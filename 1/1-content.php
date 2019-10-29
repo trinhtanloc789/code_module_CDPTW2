@@ -49,19 +49,14 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img class="img-responsive" src="./images/1-1.png" alt=""></div>
-                    <div class="swiper-slide"><img class="img-responsive" src="./images/1-5.png" alt=""></div>
-                    
+                    <div class="swiper-slide"><img class="img-responsive" src="./images/1-5.png" alt=""></div>                  
                 </div>
-            </div>
-       
-
-            <!-- Swiper JS -->
-            <script src="./js/swiper.min.js"></script>
-
-            <!-- Initialize Swiper -->
+            </div>   
+            
             <script>
                 var swiper = new Swiper('.swiper-container');
             </script>
+
         </div>
     </div>
    </div>
