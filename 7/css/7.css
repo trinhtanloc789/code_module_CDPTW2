@@ -166,7 +166,7 @@
 .type-7 .slider::-moz-range-thumb {
   width: 40px;
   height: 40px;
-  background: #85cdca;
+  background: #ffffff;
   cursor: pointer;
   border-radius: 50%;
 }
