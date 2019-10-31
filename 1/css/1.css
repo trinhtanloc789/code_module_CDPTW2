@@ -13,7 +13,7 @@
 }
 
 .type-1 .swiper-slide {
-  text-align: center;
+  position: relative;
   font-size: 18px;
   background: #fff;
   display: -webkit-box;
@@ -30,6 +30,47 @@
   align-items: center;
 }
 
+.type-1 .swiper-slide .textEffect {
+  position: absolute;
+  font-size: 58px;
+  line-height: 58px;
+  color: #ffffff;
+  right: 30px;
+  bottom: 100px;
+  animation: down 2s ease-out;
+  animation: zoom 2s ease;
+}
+
+.type-1 .swiper-slide .textEffect .p1 {
+  font-weight: 300;
+}
+
+.type-1 .swiper-slide .textEffect .p2 {
+  font-weight: bolder;
+  text-decoration: underline #85cdca;
+}
+
+@keyframes down {
+  from {
+    bottom: 100px;
+    transform: scale(-1);
+  }
+  to {
+    bottom: -200px;
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(-1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 .type-1 .logo {
   margin-bottom: 0px;
 }
@@ -38,12 +79,15 @@
   letter-spacing: 2px;
   color: #9a9a9a;
   line-height: 27px;
+  margin-top: 20px;
 }
 
 .type-1 .find {
   color: #555555;
   font-size: 36px;
   line-height: 46px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .type-1 .find span {
@@ -56,7 +100,7 @@
   box-sizing: border-box;
   border-radius: 10px;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 20px;
 }
 

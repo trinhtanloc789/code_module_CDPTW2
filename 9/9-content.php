@@ -25,16 +25,16 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="a" style="height: 20px;"></div>
                         <div class="form-group">
                             <label >Name :</label>
-                            <input type="text" class="form-control">
+                            <input id = "name" type="text" class="form-control">
                             <div class="c" style="height: 10px;"></div>
                             <label >Email :</label>
-                            <input type="text" class="form-control">
+                            <input id = "email" type="text" class="form-control">
                             <div class="c" style="height: 10px;"></div>
                             <label >Message :</label>
                             <textarea class="form-control" rows="3"></textarea>
                         </div>
                         <div class="c" style="height: 10px;"></div>
-                        <a class="btn" href="">SEND NOW</a>
+                        <a id="submit" class="btn" href="">SEND NOW</a>
                     </div>
                 </div>
                 <div class="col-md-6">
