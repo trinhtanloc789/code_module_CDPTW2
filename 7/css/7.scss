@@ -3,16 +3,15 @@
   src: url(../font/Poppins-Regular.ttf);
 }
 
+$color_1: #ffffff;
+$color_2: #a3a3a3;
+$color_3: white;
+$font_family_1: Poppins;
+$background_color_1: #E8A87C;
+$background_color_2: #f9f9f9;
+$border_color_1: #f1f1f1;
+
 .type-7 {
-
-  $color_1: #ffffff;
-  $color_2: #a3a3a3;
-  $color_3: white;
-  $font_family_1: Poppins;
-  $background_color_1: #E8A87C;
-  $background_color_2: #f9f9f9;
-  $border_color_1: #f1f1f1;
-
   padding: 50px 0;
   font-family: $font_family_1;
   background-image: url(../images/7-1.png);

@@ -143,8 +143,44 @@
   border: 1px solid #85cdca;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1150px) {
   .type-1 .col-md-4 a {
     margin-bottom: 20px;
+  }
+  .type-1 .col-md-4 .title-search {
+    margin-top: 0;
+  }
+  .type-1 .col-md-4 .find {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .textEffect .p1 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  .textEffect .p2 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .type-1 .swiper-slide {
+    position: relative;
+  }
+  .type-1 .swiper-slide .textEffect {
+    position: absolute;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 1187px) {
+  .type-1 .col-md-4 .title-search {
+    margin-top: 0;
+  }
+  .type-1 .col-md-4 .find {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }

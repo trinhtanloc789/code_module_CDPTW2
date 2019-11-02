@@ -3,14 +3,13 @@
     src: url(../font/Poppins-Regular.ttf);
 }
 
+$color_1: #555555;
+$color_2: #9a9a9a;
+$font_family_1: Poppins;
+$white: #FFF;
+$black: #000;
+
 .type_18 {
-    $color_1: #555555;
-    $color_2: #9a9a9a;
-    $font_family_1: Poppins;
-
-    $white: #FFF;
-    $black: #000;
-
     letter-spacing: 1px;
 
     .txt {

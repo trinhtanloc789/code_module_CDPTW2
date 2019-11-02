@@ -64,11 +64,9 @@
                         </div>
                     </div>
                 </div>
-
                 <script>
                     var swiper = new Swiper('.swiper-container');
                 </script>
-
             </div>
         </div>
     </div>

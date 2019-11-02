@@ -3,17 +3,19 @@
     src: url('../font/Poppins-Regular.ttf');
 }
 
+$color_1: #ffffff;
+$color_2: #e8a87c;
+$color_3: #85cdca;
+$color_4: #9a9a9a;
+$color_5: #555555;
+$color_6: #e27d60;
+$font_family_1: Poppins;
+$background_color_1: #85cdca;
+$background_color_2: #ffffff;
+$background_color_3: #e27d60;
+
+
 .type-4 {
-    $color_1: #ffffff;
-    $color_2: #e8a87c;
-    $color_3: #85cdca;
-    $color_4: #9a9a9a;
-    $color_5: #555555;
-    $color_6: #e27d60;
-    $font_family_1: Poppins;
-    $background_color_1: #85cdca;
-    $background_color_2: #ffffff;
-    $background_color_3: #e27d60;
     font-family: $font_family_1;
     .heighrow {
         margin-top: 40px;

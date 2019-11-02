@@ -5,16 +5,18 @@
 	src: url(../font/Poppins-Regular.ttf);
 }
 
+$color_1: #555555;
+$color_2: #9a9a9a;
+$color_3: #fff;
+$color_4: #85cdca;
+$color_5: #9b9b9b;
+$font_family_1: Poppins;
+$background_color_1: #85cdca;
+$background_color_2: #fff;
+$border_color_1: #fff;
+
 .type-9 {
-	$color_1: #555555;
-	$color_2: #9a9a9a;
-	$color_3: #fff;
-	$color_4: #85cdca;
-	$color_5: #9b9b9b;
-	$font_family_1: Poppins;
-	$background_color_1: #85cdca;
-	$background_color_2: #fff;
-	$border_color_1: #fff;
+
 	.container {
 		.txt1 {
 			font-size: 25px;

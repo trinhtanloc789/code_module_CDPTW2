@@ -3,9 +3,11 @@
 	src: url(../font/Poppins-Regular.ttf);
 }
 
+$color_1: #ffffff;
+$font_family_1: Poppins;
+
 .type-15 {
-	$color_1: #ffffff;
-	$font_family_1: Poppins;
+
 
 	font-family: $font_family_1;
 	background-image: url("../images/15-1.png");

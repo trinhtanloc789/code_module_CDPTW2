@@ -3,16 +3,14 @@
     src: url(../font/Poppins-Regular.ttf);
 }
 
+$color_1: #9a9a9a;
+$color_2: #555555;
+$color_3: #85cdca;
 
+$background_color_1: #85cdca;
+$border_color_1: #ffffff;
 
 .type-1 {
-
-    $color_1: #9a9a9a;
-    $color_2: #555555;
-    $color_3: #85cdca;
-
-    $background_color_1: #85cdca;
-    $border_color_1: #ffffff;
 
     font-family: Poppins;
 
@@ -42,41 +40,47 @@
         .textEffect {
             position: absolute;
             font-size: 58px;
-			line-height: 58px;
-			color: #ffffff;
-			right: 30px;
-			bottom: 100px;
-			animation: down 2s ease-out;
-			animation: zoom 2s ease;
-            .p1 {             
+            line-height: 58px;
+            color: #ffffff;
+            right: 30px;
+            bottom: 100px;
+            animation: down 2s ease-out;
+            animation: zoom 2s ease;
+
+            .p1 {
                 font-weight: 300;
-			}
-			.p2{
-				font-weight: bolder;
-				text-decoration: underline #85cdca;
-				
-			}
-		}
-		@keyframes down {
-			from {				
-				bottom: 100px;
-				transform: scale(-1);			
-			}
-			to {				
-				bottom: -200px;
-				opacity: 0;
-				transform: scale(1);
-			}
-		}
-		@keyframes zoom {
-			from {								
-				transform: scale(-1);			
-			}
-			to {				
-				transform: scale(1);
-			}
-		}
-		
+            }
+
+            .p2 {
+                font-weight: bolder;
+                text-decoration: underline #85cdca;
+
+            }
+        }
+
+        @keyframes down {
+            from {
+                bottom: 100px;
+                transform: scale(-1);
+            }
+
+            to {
+                bottom: -200px;
+                opacity: 0;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(-1);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
     }
 
     .logo {
@@ -152,11 +156,61 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1150px) {
     .type-1 {
         .col-md-4 {
             a {
                 margin-bottom: 20px;
+            }
+
+            .title-search {
+                margin-top: 0;
+            }
+
+            .find {
+                font-size: 25px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .textEffect {
+        .p1 {
+            font-size: 30px;
+            line-height: 20px;
+        }
+
+        .p2 {
+            font-size: 30px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media (max-width :550px) {
+    .type-1 {
+        .swiper-slide {
+            position: relative;
+
+            .textEffect {
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:1187px) {
+    .type-1 {
+        .col-md-4 {
+            .title-search {
+                margin-top: 0;
+            }
+
+            .find {
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
         }
     }
