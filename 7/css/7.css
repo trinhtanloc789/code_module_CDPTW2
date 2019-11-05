@@ -30,6 +30,7 @@
 
 .type-7 .boxfil {
   margin-top: -10px;
+  position: relative;
 }
 
 .type-7 .boxfil .rize {
@@ -59,6 +60,7 @@
   display: none;
   z-index: 100;
   margin-bottom: -100px;
+  position: absolute;
 }
 
 .type-7 .boxfil .hoverfil .foi {

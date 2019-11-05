@@ -37,8 +37,8 @@ $border_color_1: #f1f1f1;
 
   .boxfil {
     margin-top: -10px;
-
-
+    position: relative;
+    
     .rize {
       margin-bottom: 40px;
       text-align: center;
@@ -66,6 +66,7 @@ $border_color_1: #f1f1f1;
       display: none;
       z-index: 100;
       margin-bottom: -100px;
+      position: absolute;
 
       .foi {
         background: #ffffff;
